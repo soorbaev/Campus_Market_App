@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <linearGradient id="kitchen" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="120" y1="80" x2="270" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#kitchen)"/>
+  <!-- Dorm counter -->
+  <rect x="0" y="210" width="400" height="90" fill="#E5D3B3"/>
+  <rect x="0" y="210" width="400" height="5" fill="#D4BE98"/>
+  <!-- Steam wisps -->
+  <path d="M145 72 Q135 52 150 36" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M170 66 Q160 44 176 28" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Kettle base -->
+  <rect x="135" y="206" width="130" height="16" rx="6" fill="#1E293B"/>
+  <!-- Kettle handle -->
+  <path d="M252 102 C292 102 292 186 254 190" stroke="#1E293B" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <!-- Kettle body -->
+  <path d="M142 96 L252 96 L262 206 L132 206 Z" fill="url(#steel)" stroke="#64748B" stroke-width="2"/>
+  <!-- Spout -->
+  <path d="M142 104 L112 114 L138 142 Z" fill="#CBD5E1" stroke="#64748B" stroke-width="2"/>
+  <!-- Lid -->
+  <rect x="140" y="84" width="114" height="14" rx="5" fill="#1E293B"/>
+  <rect x="180" y="76" width="34" height="8" rx="4" fill="#334155"/>
+  <!-- Water indicator window -->
+  <rect x="228" y="118" width="12" height="68" rx="6" fill="#2563EB" opacity="0.85"/>
+  <!-- Ceramic mug -->
+  <rect x="295" y="172" width="44" height="44" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="304" y="182" width="26" height="10" rx="3" fill="#2563EB"/>
+</svg>

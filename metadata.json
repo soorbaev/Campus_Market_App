@@ -1,0 +1,6 @@
+{
+  "name": "CampusMarket KG",
+  "description": "Bishkek university secondhand student marketplace for KNU, AUCA, Manas University, and KRSU students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

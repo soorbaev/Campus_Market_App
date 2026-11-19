@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" fill="none">
+  <defs>
+    <linearGradient id="warm" x1="0" y1="0" x2="320" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" fill="url(#warm)"/>
+  <!-- Dorm desk & warm lamp -->
+  <rect x="0" y="128" width="320" height="52" fill="#92400E"/>
+  <circle cx="88" cy="72" r="56" fill="#FDE68A" opacity="0.2"/>
+  <!-- Laptop -->
+  <rect x="122" y="76" width="84" height="52" rx="4" fill="#F8FAFC" stroke="#475569" stroke-width="3"/>
+  <rect x="110" y="128" width="108" height="6" rx="3" fill="#CBD5E1"/>
+  <!-- Books stack -->
+  <rect x="224" y="108" width="64" height="10" rx="2" fill="#2563EB"/>
+  <rect x="228" y="118" width="58" height="10" rx="2" fill="#10B981"/>
+  <!-- Cozy lamp -->
+  <line x1="65" y1="128" x2="78" y2="75" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round"/>
+  <path d="M68 62 L98 70 L90 88 L62 80 Z" fill="#F59E0B"/>
+</svg>
